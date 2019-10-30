@@ -17,7 +17,7 @@ Avoid `built-in keywords` or `built-in functions`
 *  Access directly
 * Import directly
 
-[doc](https://docs.python.org/3/tutorial/classes.html#private-variables)
+[Doc](https://docs.python.org/3/tutorial/classes.html#private-variables)
 
 >“Private” instance variables that cannot be accessed except from inside an object don’t exist in Python. However, there is a convention that is followed by most Python code: a name prefixed with an underscore (e.g. _spam) should be treated as a non-public part of the API (whether it is a function, a method or a data member). It should be considered an implementation detail and subject to change without notice.
 
@@ -35,7 +35,6 @@ Avoid `built-in keywords` or `built-in functions`
 [stackoverflow](https://stackoverflow.com/questions/27965088/never-invent-such-names-only-use-them-as-documented-who/27965109#27965109)
 
 >So, if you are not a Python core developer or writing a PEP that may be one day become part of the Python standard library or core language definition, try to stay away from using dunder names in your API.
-
 
 #### Are there any exceptions?
 Look at [SQLAlchemy](https://github.com/zzzeek/sqlalchemy)
